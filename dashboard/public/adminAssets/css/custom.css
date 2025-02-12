@@ -1,0 +1,494 @@
+[data-sidebar-style="full"][data-layout="vertical"]
+  .menu-toggle
+  .deznav
+  .metismenu
+  li:hover
+  > ul {
+  display: none;
+}
+[data-sidebar-style="full"][data-layout="vertical"]
+  .deznav
+  .metismenu
+  > li
+  > a {
+  font-size: 1rem;
+}
+[data-sidebar-style="full"] .deznav .metismenu ul a:hover:before {
+  width: 0.375rem;
+}
+[data-sidebar-style="full"] .deznav .metismenu ul a:hover {
+  padding-left: 40px;
+}
+
+/* Dashboard Page Start */
+.dashboardPage .revenue-date span {
+  font-size: 14px;
+}
+.dashboardPage .revenue-date.residential span {
+  color: #000;
+}
+.dashboardPage .revenue-date.residential h4 {
+  color: #000;
+}
+.dashboardPage .viewIcon i {
+  background: #fff;
+  color: #000;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.viewAll {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.viewAll h5 a {
+  background: #f8b940;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+.viewAll h5 {
+  padding-bottom: 10px;
+}
+.viewAll h5 a:hover {
+  transform: scale(0.9);
+}
+.residential_prop_pie_card {
+  padding: 20px 0;
+}
+.actionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 0px;
+}
+.dashboardActionBtn {
+  justify-content: flex-end;
+}
+.actionBtn i {
+  font-size: 15px;
+  color: #000;
+  cursor: pointer;
+}
+.localityBoxIcon {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.localityBoxIcon i {
+  color: #000;
+  font-size: 9px;
+}
+.localitiesModal {
+  color: #000;
+}
+.localitiesModal ul li {
+  background: var(--primary);
+  display: inline-block;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+/* Dashboard Page End */
+
+/* Add Property Start */
+.addPropertyPage .form-label {
+  color: #000;
+  font-size: 15px;
+}
+.addPropertyPage .amenities label {
+  color: #000;
+  font-size: 15px;
+}
+.addPropertyPage .amenityP {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+}
+.addPropertyPage .amenities .form-check-input:checked {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+/* Add Property End */
+
+/* View Property Start */
+
+.viewPropertyPage .customCard {
+  margin-bottom: 1rem;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  color: #000;
+}
+.viewPropertyPage .topBar {
+  padding: 15px;
+  border-radius: 10px;
+}
+.viewPropertyPage .topBar .title h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 25px;
+}
+.viewPropertyPage .topBar .category h5 {
+  background-color: var(--primary);
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+.viewPropertyPage .commonBorderRadius {
+  border-radius: 10px;
+}
+.viewPropertyPage .imageGallery img {
+  border-radius: 5px;
+  transition: 0.5s all;
+  overflow: hidden;
+}
+.viewPropertyPage .imageGallery img:hover {
+  transform: scale(1.05);
+}
+.viewPropertyPage .agentDetails .card-use-box .crd-bx-img {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+.viewPropertyPage .agentDetails .card-use-box .crd-bx-img img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.viewPropertyPage .overflowedLine {
+  white-space: nowrap;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.viewPropertyPage .card-use-box .crd-bx-img .active {
+  left: 3rem;
+}
+.viewPropertyPage .card__text p {
+  margin-bottom: 10px;
+}
+.viewPropertyPage .post-pos {
+  margin: 14px 18px 18px 18px;
+}
+.viewPropertyPage .propertyDetails {
+  color: #000;
+  padding: 20px;
+}
+.viewPropertyPage .propertyDetails p {
+  margin-bottom: 0;
+}
+.viewPropertyPage .propertyDetails .price p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.viewPropertyPage .propertyDetails .location p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.viewPropertyPage .propertyDetails .postedDate p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.viewPropertyPage .sectionTitle {
+  font-weight: 500;
+  font-size: 20px;
+  display: inline-block;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+}
+.viewPropertyPage .overviewDetails {
+  padding: 20px 20px 0 20px;
+}
+.viewPropertyPage .overviewDetails .list {
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.viewPropertyPage .overviewDetails .list img {
+  width: 20px;
+  height: 20px;
+}
+.viewPropertyPage .overviewDetails li.itemsHead {
+  font-size: 18px;
+  font-weight: 600;
+}
+.viewPropertyPage .overviewDetails li.itemsFDesc {
+  font-size: 13px;
+}
+/* View Property End */
+
+/* Agents Modal Start */
+.agentsModal {
+  color: #000;
+}
+.agentsModal .modal-body {
+  padding: 10px 20px;
+}
+.agentDetails {
+  margin-bottom: 0;
+}
+.agentDetails .card__text {
+  margin-bottom: 10px;
+}
+.agentDetails .crd-bx-img {
+  width: 100px;
+  height: 100px;
+}
+.agentDetails .crd-bx-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.agentDetails .card-use-box .crd-bx-img .active {
+  left: 4.5rem;
+}
+.updateAgentModal .form-label {
+  font-size: 15px;
+}
+.updateAgentModal .form-control {
+  color: #000;
+  font-style: 14px;
+}
+/* Agents Modal End */
+
+.customCssSnippet {
+  border-radius: 10px;
+  background-color: var(--primary);
+  outline: 1px solid #fff;
+  padding: 10px 20px 10px 20px;
+  background-origin: 2px solid #fefefe;
+  transform: matrix3d(20deg);
+  transition: 0.5s all;
+  filter: brightness(20);
+}
+
+/* Reviews Page Start */
+.reviewsPage .rating h5 {
+  background-color: var(--primary);
+  display: inline-block;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.reviewsPage .rating div {
+  padding-top: 10px;
+}
+.reviewsPage .rating div i {
+  color: #f8b940;
+  font-size: 20px;
+  padding: 0 4px;
+}
+.reviewsPage .card-use-box .crd-bx-img .active {
+  left: 4.5rem;
+}
+.reviewsPage .reviewBottomArea {
+  display: flex;
+  padding: 10px 30px 0 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviewsPage .reviewBottomArea p {
+  margin-bottom: 0;
+  color: #000;
+  font-size: 16px;
+}
+.reviewsPage .pagination {
+  margin-bottom: 0;
+}
+/* Reviews Page End */
+
+/* Notification Page Start */
+.notificationsPage .height370 {
+  height: 80vh;
+}
+/* Notification Page End */
+
+.agentDetails .utf-boxed-list-headline-item{
+  background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.agentDetails .utf-boxed-list-headline-item h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 8px;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.agentDetails.utf-boxed-list-headline-item h3::before {
+  background: #e33324;
+  border: 0 none;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  bottom: -2px;
+  width: 40px;
+  border-radius: 30px;
+}
+.agent-title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.agent-title .agent-photo {
+  float: left;
+  display: block;
+}
+.agent-title .agent-photo img {
+  border-radius: 6px;
+  max-width: 105px;
+  width: 105px;
+  height: 95px;
+  /* padding: 2px; */
+  border: 2px solid #eaeff5;
+}
+.agent-details {
+  margin-left: 120px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.agentDetails h4 {
+  color: #333;
+  font-weight: 600;
+  margin: 0px 0 6px 0;
+}
+.agent-details span {
+  color: #999;
+  font-size: 14px;
+}
+.agent-details span a {
+  display: inline-block;
+  color: #429523;
+}
+
+.overview h3{
+  font-size: 18px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 0px;
+  font-weight: 700;
+  color: #333;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.property_price {
+  font-size: 20px;
+  color: #999;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+/* agentDashboard css start */
+
+.agent-login-form .card-body{
+  padding: 1.25rem 1.25rem 0 1.25rem !important;
+}
+
+.agent-profile .page-titles{
+  border-radius: 10px;
+  margin-bottom: 1.875rem;
+}
+.agent-profile .list-group .list-group-item{
+  padding: 6px 1.5rem !important;
+}
+.agent-profile .check-tbl{
+    width: 100%;
+    vertical-align: middle;
+}
+.agent-profile .check-tbl tbody td {
+  padding: 8px;
+  font-weight: 500;
+}
+
+.agent-profile .check-tbl tbody td i {
+  color: var(--primary);
+  font-size: 1.62rem;
+  margin-right: 0.625rem;
+  vertical-align: middle;
+}
+
+.dataTables_wrapper .dataTables_filter{
+  position: absolute;
+      top: -3rem;
+      right: 7px;
+  }
+
+ /* user Dashboard css */
+ .user-profile .page-titles{
+  border-radius: 10px;
+  margin-bottom: 1.875rem;
+}
+.user-profile .list-group .list-group-item{
+  padding: 6px 1.5rem !important;
+}
+.user-profile .check-tbl{
+    width: 100%;
+    vertical-align: middle;
+}
+.user-profile .check-tbl tbody td {
+  padding: 8px;
+  font-weight: 500;
+}
+
+.user-profile .check-tbl tbody td i {
+  color: var(--primary);
+  font-size: 1.62rem;
+  margin-right: 0.625rem;
+  vertical-align: middle;
+}
+
+/* Responsive Designs Start */
+
+@media only screen and (max-width: 576px) and (orientation: landscape) {
+  
+}
+
+@media only screen and (max-width: 77px) {
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media only screen and (min-width: 1400px) {
+  #suggestions {
+    display: none;
+    position: absolute;
+    top: 2.45rem;
+    z-index: 1000;
+    background: white;
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+  }
+}
+/* Responsive Designs End */
+
+
+
+
+

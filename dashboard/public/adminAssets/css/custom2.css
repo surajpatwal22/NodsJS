@@ -1,0 +1,657 @@
+/* Home page */
+ /* sidebar code */
+body::-webkit-scrollbar,
+body::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  background-color: #f5f5f5;
+  width: 1rem;
+  height: 0.5rem;
+}
+
+body::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0.375rem rgba(0, 0, 0, 0.3);
+  /* border-radius: 0.625rem; */
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  /* border-radius: 0.625rem; */
+  -webkit-box-shadow: inset 0 0 0.375rem rgba(0, 0, 0, 0.3);
+  background-color: #ddd;
+}
+
+
+
+/* input updown remove code */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* sidebar code to reduce padding */
+[data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li > a {
+    font-size: 0.875rem;
+    padding: 0.5rem 1.5rem;
+    margin: 0px;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.deznav .metismenu ul {
+    transition: all .2s ease-in-out;
+    position: relative;
+    z-index: 1;
+    padding: 0rem 0.2rem;
+}
+.deznav .metismenu ul a {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    position: relative;
+    font-size: 0.813rem;
+    padding-left: 3rem;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+/* sidebar code to reduce padding ends */
+
+
+.info-chart-display {
+    padding: 0px;
+    position: relative;
+    margin-top: -25px;
+}
+.padding10{
+    padding: 10px;
+}
+.card-padding{
+    padding-left: 4px;
+    padding-top: 6px;
+    font-weight: 600;
+}
+.employeeAvlsection{
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+.ml2{
+    margin-left: 50px;
+}
+
+.lang-chart {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.headingdark{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+.Employeeheadsection{
+    display: flex;
+    justify-content: space-between;
+}
+.addemployee{
+    background: var(--primary);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.form-control2 {
+    display: block;
+    width: 100%;
+    height: calc(1.5715em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5715;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.25rem;
+    box-shadow: inset 0 0 0 transparent;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.modal-label{
+    line-height: 1.5;
+    font-weight: 500;
+    color: #222B40;
+}
+.marginmodal2{
+    margin-top: 1rem;
+}
+.codered{
+    background-color: #ffe5e5;
+}
+
+.performancecadrm1{
+    margin: 0px 10px;
+}
+.SearchboxSection {
+   padding: 10px;
+   /* padding-top: 0px; */
+   
+}
+.codeblue{
+    background-color: seashell;
+    margin-bottom: 0px !important;
+}
+.field-width {
+   
+    padding-left: 1rem;
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+.field-width2 {
+    height: 31px !important;
+}
+.displayicon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.SearchButtonSection{
+    padding-right: 1rem;
+}
+.SortStyle{
+    font-size: 12px;
+    margin-top: 5px;
+   padding: 8px 14px;
+    border-radius: 0px;
+}
+.card-padding{
+    padding: 11px;
+}
+.employee-pading{
+    padding-left: 10px;
+}
+.p-left10{
+    padding-left: 14px;
+}
+.localityBoxIcon {
+    display: flex;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+}
+.p-bottom0{
+    padding-bottom: 0px;
+}
+.mySwiper .card .card-body {
+    padding: 16px;
+    padding-bottom: 0px;
+}
+.male{
+    color: var(--primary) !important;
+    margin-right: 10px;
+}
+.maleActive{
+    color: var(--secondary) !important;
+    margin-right: 10px;
+}
+.female{
+    color: #f53c79 !important;
+    margin-right: 10px;
+}
+.maleHold{
+    color: #58bad7 !important;
+    margin-right: 10px;
+}
+.complete{
+    color: var(--primary) !important;
+    margin-right: 10px;
+}
+.active{
+    color: #008B8B !important;
+    margin-right: 10px;
+}
+.process{
+    color: var(--secondary) !important;
+    margin-right: 10px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    height: calc(1.5715em + 0.75rem + 2px);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #888888;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #E6E6E6;
+    appearance: none;
+    /* border-radius: 0.75rem; */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.interview-box{
+    height: 366px;
+    overflow-y: scroll;
+}
+.search-area{
+    width: 50%;
+}
+.basic-dropdown{
+    display: flex;
+    justify-content: flex-end;
+}
+.basic-dropdown button {
+    width: 100%;
+    font-size: 1.1rem;
+}
+.basic-dropdown .dropdown {
+    width: 25%;
+}
+.taskdropdown{
+    width: 95% !important;
+}
+
+.codeyellow{
+    background-color: floralwhite
+}
+
+/* Employee Detail Page */
+.addEmployeeForm .form-label {
+    display: flex;
+}
+/* .addEmployeeForm .form-control[type="file"] {
+  height: 40px;
+} */
+/* index page css */
+.box-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.375rem;
+    border-radius: 0.625rem;
+    
+    
+}
+.localityBoxIcon i {
+    color: #000;
+    font-size: 9px;
+    
+        transform: scale(2.1);
+    
+}
+
+/* Client card section */
+.card-display{
+    height: 204px;
+}
+.space-image img {
+    padding-top: 0px;
+    height: 127px;
+    width: 75%;
+}
+.display-center{
+    padding-top: 21px;
+    justify-content: center;
+}
+.m-2t{
+    margin-top: 0px;
+}
+.list-padding1{
+    padding: 6px;
+}
+.list-padding{
+    padding: 8px;
+}
+
+.headingdark2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+
+@media screen and (max-width:767px){
+    .icon-box{
+        display: none;
+    }
+    .ml2 {
+        margin-left: 42px;
+    }
+    .sm-card{
+        width:40%
+    }
+    
+   
+    /* .SearchButtonSection{
+        padding-left: 16px;
+    } */
+    .SortStyle {
+        font-size: 10px;
+        margin-top: 5px;
+        padding: 8px 14px;
+        border-radius: 0px;
+    }
+    .filterButton{
+        padding: 6px;
+        font-size: 13px;
+        width: 100%;
+    }
+    .search-area{
+        width: 100%;
+    }
+    .basic-dropdown .dropdown {
+        width: 100%;
+    }
+    /* customer card  */
+    .card-display {
+        height: 385px;
+    }
+    .clientsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .sm-width{
+        width: 100%;
+    }
+    .card-profile .follow-list li {
+        padding: 0px ;
+        border-radius: 0.375rem;
+        margin: 0px 1px !important;
+        margin-top: 2px;
+        background: var(--rgba-primary-1);
+        min-width: 100px;
+    } 
+    
+}
+
+@media screen and (min-width:1023px) and (max-width:1290px) {
+    
+    .card-display {
+        height: 226px;
+    }
+}
+/* edit profile section */
+.card-profile .follow-list li {
+    padding: 10px;
+    border-radius: 0.375rem;
+    margin: 0 9px;
+    margin-top: 2px;
+    background: var(--rgba-primary-1);
+    min-width: 100px;
+}
+/* application form */
+.active-projects thead tr th:last-child {
+    text-align: center;
+}
+
+/* index page */
+
+.urlparserdata{
+    display: none;
+}
+.chart-lang{
+    justify-content: space-around;
+}
+
+.pointer{
+    cursor: default !important;
+}
+.project-timeline{
+    padding-bottom: 10px;
+}
+.table-data {
+    height: 263px;
+    overflow-x: auto;
+    overflow-y: scroll;
+   
+  }
+  .pagination-section{
+    padding-top: 15px;
+  }
+  .projectinformation{
+    padding-top: 8px;
+    padding-left: 15px;
+    font-weight: 600;
+  }
+  .updatefieldwidth{
+    padding-left: 3px !important;
+  }
+  .mb-00{
+    padding-bottom: 2px;
+    padding-top: 0px;
+  }
+
+  .widget-stat .media > span {
+    height: 3.3125rem;
+    width: 3.3125rem;
+    border-radius: 3.125rem;
+    padding: 0.625rem 0.75rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464a53;
+    min-width: 2.3125rem;
+}
+.widget-stat .media .media-body h3, .widget-stat .media .media-body .h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
+}
+.padding-t3chart{
+    padding-top: 1px !important;
+    padding-bottom: 0px !important;
+}
+.project-cards{
+    height: 105px;
+}
+.chart-smdisplay{
+    position: relative;
+    height: 60px;
+}
+.card-paddibgb {
+    padding-bottom: 0px !important;
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-right: 10px;
+}
+
+.projectinformation2 {
+    padding-top: 8px;
+    padding-left: 0px;
+    font-weight: 500;
+}
+/* client detail page card  */
+.clientcard-heading{
+    font-size: 14px;
+    color: #222B40;
+}
+.clientcard-detail{
+    font-size: 14px;
+    color: #222B40;
+}
+.clientcard-P{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* client project report card section */
+
+.projectReportCard .card-header{
+ padding: 10px;
+}
+.projectReportCard .card-header h5{
+    margin-bottom: 0;
+}
+.projectReportCard .card-body ul li{
+    list-style: circle;
+    
+}
+.projectReportCard .card-body ul li i{
+    font-size: 8px;
+    color: var(--primary);
+    margin-right: 5px;
+}
+.projectReportCard .card-body ul li p{
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.helpNotification{
+  
+        margin-bottom: 1.563rem;
+        background-color: #fff;
+        transition: all .5s ease-in-out;
+        position: relative;
+        border: 0rem solid transparent;
+        border-radius: 0.625rem;
+        height: 72px;
+   
+
+}
+.w-98{
+    width: 97%;
+}
+.Employeeheadsection h4{
+    color: #000;
+    font-weight: 600;
+}
+.viewAll h5 {
+    padding-bottom: 9px;
+    padding-top: 9px;
+    
+}
+
+/* Detail project page css */
+.third-post {
+    flex-flow: wrap;
+}
+.third-post img {
+    width: 100%;
+    height: 220px;
+}
+.media-body .progress{
+    height: 9px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+    margin-top: 8px;
+}
+.ProjectTaskDetail{
+    padding: 8px;
+    margin-bottom: 0;
+}
+.ProjectTaskDetail .custom-tab-1 .tab-content .tab-pane ul li i{
+    font-size: 8px;
+    color: var(--primary);
+    margin-right: 5px;
+}
+.ProjectTaskDetail .custom-tab-1 .tab-content .tab-pane ul li p{
+    color: #030303;
+    margin-bottom: 0;
+}
+.custom-tab-1 .nav-link:focus, .custom-tab-1 .nav-link:hover, .custom-tab-1 .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: var(--primary);
+    border-radius: 0;
+    color: var(--primary) !important;
+    border-width: 0 0rem 0.1875rem 0;
+}
+.nav-tabs .nav-link {
+    margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+    background: none;
+    color: #000;
+    border: var(--bs-nav-tabs-border-width) solid transparent;
+    border-top-left-radius: var(--bs-nav-tabs-border-radius);
+    border-top-right-radius: var(--bs-nav-tabs-border-radius);
+}
+.custom-tab-1 .nav-link i {
+    display: inline-block;
+    transform: scale(1.1);
+    color: var(--primary);
+}
+.card .recent-post{
+    padding: 1rem;
+}
+.ProjectTaskDetail .custom-tab-1 ul.nav-tabs{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+.ProjectTaskDetail .custom-tab-1 ul li{
+    min-width: 105px;
+}
+ /* sidebar code */
+ /* by default it is display none if you want to add more fields , then remove this property */
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs::-webkit-scrollbar{
+    display: none;
+ }
+
+
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs::-webkit-scrollbar,
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs::-webkit-scrollbar,
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs::-webkit-scrollbar {
+   background-color: var(--primary);
+   width: 0.4rem;
+   height: 0.4rem;
+   cursor: pointer;
+ }
+ 
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs::-webkit-scrollbar-track,
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs::-webkit-scrollbar-track,
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 0.375rem rgba(0, 0, 0, 0.3);
+   /* border-radius: 0.625rem; */
+   background-color: var(--primary);
+   cursor: pointer;
+ }
+ 
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs ::-webkit-scrollbar-thumb,
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs::-webkit-scrollbar-thumb,
+ .ProjectTaskDetail .custom-tab-1 ul.nav-tabs::-webkit-scrollbar-thumb {
+   /* border-radius: 0.625rem; */
+   -webkit-box-shadow: inset 0 0 0.375rem rgba(0, 0, 0, 0.3);
+   background-color: var(--primary);
+   cursor: pointer;
+ }
+
+ /* Add taskin report page  */
+ .addTaskreport .card .row{
+    padding: 20px;
+ }
+ 
+ #description-field2{
+    display: none;
+    }
+ #description-field3{
+ display: none;
+ }
+ #description-field4{
+    display: none;
+    }
+    #description-field5{
+        display: none;
+        }
+        #descriptionFields .row{
+            padding: 0;
+        }
+
+.agent_profile{
+    padding: 3px 10px;
+    background: var(--bs-primary);
+    color: #fff;
+    border-radius: 4%;
+}
+.agent_profile:hover{
+    color: #fff;
+}
