@@ -50,7 +50,11 @@
 												<div class="tab-content w-100" id="nav-tabContent">
 													<div class="tab-pane fade show active" id="nav-personal"
 														role="tabpanel" aria-labelledby="nav-personal-tab">
-														
+														<% if (typeof error !== 'undefined' && error) { %>
+															<div style="color: red; font-weight: bold;">
+																<%= error %>
+															</div>
+														<% } %>
 														<form method="POST" action="/admin/auth/login-submit" class=" dz-form pb-3" id="loginForm" onsubmit="return validateForm();">
 															<h3 class="form-title m-t0">LogIn to your account!</h3>
 															<div class="dz-separator-outer m-b5">
@@ -82,7 +86,7 @@
 
 														<div class="text-center bottom">
 															<a class="btn btn-primary button-md btn-block"
-															href="#"
+															href="/admin/auth/register"
 																>Create an
 																account</a>
 

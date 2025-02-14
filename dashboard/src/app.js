@@ -2,6 +2,7 @@ import express from 'express';
 import adminRouter from './routes/admin.js';
 import path from "path";
 import { fileURLToPath } from "url";
+import session from 'express-session';
 
 const app = express();
 
@@ -18,6 +19,13 @@ app.set('view engine', 'ejs');
 app.set('views', './src/views');
 
 app.use(express.urlencoded({ extended: true }));
+
+app.use(session({
+    secret: 'your-secret-key', 
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false } 
+}));
 
 app.use('/admin', adminRouter);
 // app.use('/user', userRouter);

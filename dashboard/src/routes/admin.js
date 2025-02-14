@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.get('/auth/login', adminController.showLoginPage);
 router.post('/auth/login-submit', adminController.login);
-
+router.get('/auth/register', adminController.showRegisterPage);
 router.use(adminAuth);
 router.get('/dashboard', adminController.showDashboard);
 
