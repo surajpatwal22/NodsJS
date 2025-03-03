@@ -54,6 +54,10 @@
 															<div style="color: red; font-weight: bold;">
 																<%= error %>
 															</div>
+														<% } else if (typeof success !== 'undefined' && success) { %>
+															<div style="color: green; font-weight: bold;">
+																<%= success %>
+															</div>
 														<% } %>
 														<form method="POST" action="/admin/auth/login-submit" class=" dz-form pb-3" id="loginForm" onsubmit="return validateForm();">
 															<h3 class="form-title m-t0">LogIn to your account!</h3>
